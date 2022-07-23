@@ -1,0 +1,194 @@
+/*Обнуление*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 16px;
+    background-color: #3172b9;
+    font-size: 12px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* header */
+.header {
+    height: 100px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-button {
+    margin-left: 80px;
+}
+
+/* hero */
+.hero-container {
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+
+.hero-content {
+    max-width: 480px;
+}
+
+.hero-head {
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    margin-bottom: 30px;
+}
+
+.button-description {
+    margin-top: 10px;
+}
+
+/* what we do */
+
+.what-we-do {
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.text-what {
+    margin-top: 25px;
+}
+
+.do-list {
+    display: flex;
+    margin-top: 50px;
+}
+
+.do-list-item {
+    flex: 1 1 25%;
+}
+
+.do-list-item:not(:last-child) {
+    margin-right: 30px;
+}
